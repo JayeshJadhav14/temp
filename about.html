@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: right;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Chanakya Institute</h1>
+  <p>Establish in 2018 </p>
+  <p>500+ students enroll in offline sessions  </p>
+</div>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="images/jay1.jpeg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Jayesh Jadhav</h2>
+        <p class="title"> Director</p>
+        <p>Technical Head of Chanakya Institute.</p>
+        <p>jayeshjadhav1409@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="Details ">
+    <h1>Institute Founder</h1>
+    <h4> Prof.Chetan Sonawane.</h4>
+    <p>-Education : Bcom</p>
+    <p>-Teaching Experience : 5 years<br></p>
+    <br>
+    <h3>__________________________________________</h3>
+    <p>On this Platform our Institute provide Learning material / E-books /HandWritten Notes / conceptual notes... </p> 
+                  <p> -To know more about our institute contact with +91 8012517705
+         
+         </p>
+  </div>
+  
+
+</body>
+</html>
